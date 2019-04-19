@@ -12,3 +12,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+/* Books */
+tr{
+  text-align: center;
+}
+span{
+  font-size: 24px;
+  font-weight: bold;
+}
+.more{
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.more .title{
+  background-color: rgba(0,0,0,.075);
+  padding: 10px 20px;
+  border-bottom: 1px solid grey;
+}
+.more .content{
+  padding:20px; 
+}
+
+/* Wheather */
+.topSection{
+  background-color: #28a6ffbd;
+  color: #fff;
+}
+.topSection .temp{
+  height: 250px;
+}
+.topSection .speedWind,
+.topSection .city{
+  padding: 20px;
+}
+.listWeather ul{
+  padding:0;
+}
+.listWeather li{
+  border-bottom: 1px solid #000;
+  padding: 20px  10px;
+  list-style-type:none;
+}
